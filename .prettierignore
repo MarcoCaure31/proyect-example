@@ -1,0 +1,9 @@
+[System.IO.File]::WriteAllText("$PWD\.prettierignore", @'
+node_modules/
+dist/
+.astro/
+.storybook/
+coverage/
+storybook-static/
+src/stories/
+'@)
